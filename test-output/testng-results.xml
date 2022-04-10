@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-08T15:32:49 IST" name="Default suite" finished-at="2022-04-08T15:34:57 IST" duration-ms="128466">
+    <groups>
+    </groups>
+    <test started-at="2022-04-08T15:32:49 IST" name="Default test" finished-at="2022-04-08T15:34:57 IST" duration-ms="128466">
+      <class name="DataDriven.DataD.SignUpTest.SignUpTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:32:48 IST" name="setupSuite" finished-at="2022-04-08T15:32:49 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:32:49 IST" name="initDriver" finished-at="2022-04-08T15:34:21 IST" duration-ms="92015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="loadUrl()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:34:21 IST" name="loadUrl" finished-at="2022-04-08T15:34:51 IST" duration-ms="30063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrl -->
+        <test-method signature="signUpFormValid_001()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:34:51 IST" name="signUpFormValid_001" finished-at="2022-04-08T15:34:55 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpFormValid_001 -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:34:55 IST" name="tearDownMethod" finished-at="2022-04-08T15:34:56 IST" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpFormValid_001 status=SUCCESS method=SignUpTest.signUpFormValid_001()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:DataDriven.DataD.SignUpTest.SignUpTest@34a1d21f]" started-at="2022-04-08T15:34:56 IST" name="tearDownSuite" finished-at="2022-04-08T15:34:57 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- DataDriven.DataD.SignUpTest.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
